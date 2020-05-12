@@ -120,3 +120,30 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
+----------
+
+Tue May 12 2020 16:17:50 GMT-0400 (Eastern Daylight Time)
+
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+
+
+----------
+
+Tue May 12 2020 16:17:51 GMT-0400 (Eastern Daylight Time)
+
+To github.com:anujjbubna/anujjbubna.github.io.git
+ ! [rejected]        master -> master (fetch first)
+
+
+----------
+
+Tue May 12 2020 16:17:51 GMT-0400 (Eastern Daylight Time)
+
+error: failed to push some refs to 'git@github.com:anujjbubna/anujjbubna.github.io.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
