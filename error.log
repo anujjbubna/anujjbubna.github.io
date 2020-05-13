@@ -185,3 +185,20 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
+----------
+
+Wed May 13 2020 11:40:11 GMT-0400 (Eastern Daylight Time)
+
+To github.com:anujjbubna/anujjbubna.github.io.git
+   10f6d33..39b85cc  master -> master
+
+
+----------
+
+Wed May 13 2020 11:40:13 GMT-0400 (Eastern Daylight Time)
+
+To github.com:anujjbubna/anujjbubna.github.io.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 39b85cc0adaa98ed4b14a4d7a467095df35421ae but expected 10f6d33f0ce0ddfedea0085823ceb1bc3545bd01)
+error: failed to push some refs to 'git@github.com:anujjbubna/anujjbubna.github.io.git'
+
+
