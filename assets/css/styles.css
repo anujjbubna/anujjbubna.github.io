@@ -1,0 +1,10 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: #272828!important;
+  opacity: 0.9;
+}
+
+.nav.navbar-nav.flex-grow-1.justify-content-end {
+  color: #fff;
+  font-size: 14px;
+}
+
