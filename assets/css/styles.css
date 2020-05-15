@@ -12,13 +12,9 @@
   background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
 }
 
-#Aboutme {
-  text-align: center;
-}
-
 @media (min-width: 300px) {
   #about_pic img {
-    text-align: center;
+    margin-bottom: 30px;
     width: 300px!important;
     height: 400px!important;
   }
@@ -75,5 +71,9 @@
   #about_info {
     margin-top: 20px;
   }
+}
+
+#about_pic {
+  text-align: center;
 }
 
