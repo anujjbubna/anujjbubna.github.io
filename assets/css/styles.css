@@ -56,7 +56,7 @@
 
 @media (min-width: 300px) {
   #p1 {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 
@@ -80,7 +80,13 @@
   font-family: 'Arima Madurai';
 }
 
-#p2 {
-  font-size: 35px;
+@media (min-width: 300px) {
+  #p2 {
+    font-size: 24px;
+  }
+}
+
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  height: 80px;
 }
 
