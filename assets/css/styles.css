@@ -16,9 +16,13 @@
 }
 
 .h1, h1 {
-  padding-top: 83px;
+  padding-top: 75px;
 }
 
 .text-center {
+}
+
+:root {
+  background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
 }
 
