@@ -8,21 +8,62 @@
   font-size: 14px;
 }
 
-.hi Heading1 {
-  padding-top: 132px;
-}
-
-.Heading.1 {
-}
-
-.h1, h1 {
-  padding-top: 75px;
-}
-
-.text-center {
-}
-
 :root {
   background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
+}
+
+#Aboutme {
+  text-align: center;
+}
+
+@media (min-width: 300px) {
+  #about_pic img {
+    text-align: center;
+    width: 300px!important;
+    height: 400px!important;
+  }
+}
+
+@media (min-width: 576px) {
+  #about_pic img {
+    margin-left: 105px;
+    margin-bottom: 75px;
+    text-align: center;
+    width: 300px!important;
+    height: 400px!important;
+  }
+}
+
+@media (min-width: 768px) {
+  #about_pic img {
+    margin-left: 30px;
+    margin-top: 77px;
+    text-align: center;
+    width: 300px!important;
+    height: 400px!important;
+  }
+}
+
+#h1 {
+  font-size: 54px;
+  font-family: 'Arima Madurai';
+}
+
+@media (min-width: 768px) {
+  #p1 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 300px) {
+  #p1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about_info {
+    margin-top: 20px;
+  }
 }
 
