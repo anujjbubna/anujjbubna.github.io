@@ -71,7 +71,16 @@
 }
 
 #CV {
-  margin-top: 100px;
+  margin-top: 164px;
   text-align: center;
+}
+
+#h2 {
+  font-size: 54px;
+  font-family: 'Arima Madurai';
+}
+
+#p2 {
+  font-size: 35px;
 }
 
