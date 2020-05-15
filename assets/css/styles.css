@@ -8,10 +8,6 @@
   font-size: 14px;
 }
 
-:root {
-  background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
-}
-
 @media (min-width: 300px) {
   #about_pic img {
     margin-bottom: 30px;
@@ -71,6 +67,11 @@
 }
 
 #about_pic {
+  text-align: center;
+}
+
+#CV {
+  margin-top: 100px;
   text-align: center;
 }
 
