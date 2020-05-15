@@ -1,6 +1,6 @@
 .navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
-  background-color: #272828!important;
-  opacity: 0.9;
+  background-color: #191d32!important;
+  background: linear-gradient(to bottom,#111528 0%, #282f44 100%);
 }
 
 .nav.navbar-nav.flex-grow-1.justify-content-end {
