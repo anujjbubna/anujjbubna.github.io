@@ -44,6 +44,16 @@
   }
 }
 
+@media (min-width: 992px) {
+  #about_pic img {
+    margin-left: 37px;
+    margin-top: 27px;
+    text-align: center;
+    width: 400px!important;
+    height: 480px!important;
+  }
+}
+
 #h1 {
   font-size: 54px;
   font-family: 'Arima Madurai';
