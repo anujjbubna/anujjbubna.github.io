@@ -1,6 +1,6 @@
 @media (min-width: 300px) {
   .navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
-    background: linear-gradient(to bottom,#111528 0%, #282f44 100%);
+    background: linear-gradient(to bottom,#111528 18%, #282f44 68%);
     /*height: 49px;*/
   }
 }
@@ -91,11 +91,7 @@
   }
 }
 
-:root {
-  background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
-}
-
 .text-left {
-  background: linear-gradient(to bottom,#eff6ee 50%, #c1cad6 100%);
+  background: linear-gradient(to bottom,#eff6ee 60%, #c1cad6 86%);
 }
 
