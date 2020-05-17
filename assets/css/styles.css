@@ -80,19 +80,22 @@
   text-align: center;
 }
 
-#CV {
+#Skills {
   margin-top: 164px;
   text-align: center;
 }
 
-#h2 {
-  font-size: 54px;
-  font-family: 'Arima Madurai';
+@media (min-width: 768px) {
+  #h1 {
+    margin-top: 116px;
+  }
 }
 
-@media (min-width: 300px) {
-  #p2 {
-    font-size: 24px;
-  }
+:root {
+  background: linear-gradient(to bottom,#eff6ee 0%, #c1cad6 100%);
+}
+
+.text-left {
+  background: linear-gradient(to bottom,#eff6ee 50%, #c1cad6 100%);
 }
 
