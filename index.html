@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arima+Madurai">
+    <link rel="stylesheet" href="assets/css/fullpage.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" type="text/css" href="fullpage.css" />
+
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+<script src="vendors/easings.min.js"></script>
+
+
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+<script type="text/javascript" src="fullpage.js"></script>
 </head>
 
-<body class="text-left" style="font-family: ABeeZee, sans-serif;padding-top: 160px;">
+<body class="text-left" style="font-family: ABeeZee, sans-serif;">
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
         <div class="container"><a class="navbar-brand" href="#">Anujj Bubna</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
@@ -21,28 +32,30 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#Skills">CV</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Awards</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="Archive.html">Archive</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="">Archive</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div>
-        <div class="container">
-            <div class="row" id="about">
-                <div class="col-md-6" id="about_pic"><img class="rounded-circle" src="assets/img/IMG-20190925-WA0046.jpg"></div>
-                <div class="col-md-6 flex-wrap" id="about_info">
-                    <div>
-                        <h1 class="text-center" id="h1"><strong>About Me</strong></h1>
-                        <p class="text-center" id="p1" style="/*font-size: 27px;*/">Hello, my name is Anujj Bubna and I am a Third Year student at the University of Toronto, St. George Campus, Canada. My field of study is Computer Science and Statistics.&nbsp;</p>
-                    </div>
+    <div id="fullpage">
+        <div id="about" class="section">
+            <div class="row" id="about_row" style="width: 836px;margin-right: 0px;margin-left: 0px;">
+                <div class="col-lg-5 offset-lg-0" id="am_pic" style="width: 178px;"><img class="rounded-circle" id="am_img" src="assets/img/IMG-20190925-WA0046.jpg" style="width: 272px;margin-top: 0px;margin-right: 0px;"></div>
+                <div class="col-lg-6 offset-1 offset-lg-0" id="am_info">
+                    <h1 id="am_h"><strong>About Me</strong></h1>
+                    <p class="text-center" id="am_p">Hello, my name is Anujj Bubna and I am a Third Year student at the University of Toronto, Canada. My subjects of studies are Computer Science and Statistics.</p>
                 </div>
             </div>
         </div>
+        <div class="section">
+            <h1>test 2</h1>
+        </div>
     </div>
-    <section></section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/fp.js"></script>
+    <script src="assets/js/fullpage.js"></script>
 </body>
 
 </html>
