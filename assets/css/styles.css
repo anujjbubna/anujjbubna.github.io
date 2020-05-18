@@ -5,11 +5,9 @@
   width: auto!important;
 }
 
-#am_pic {
-}
-
 #about_row {
   width: auto!important;
+  max-width: 1202px;
   margin-top: 78px;
 }
 
@@ -17,10 +15,19 @@
   text-align: center;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   #am_p {
-    text-align: center;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 768px) {
+  #am_p {
     font-size: x-large;
   }
+}
+
+#am_img {
+  width: 300px!important;
 }
 
