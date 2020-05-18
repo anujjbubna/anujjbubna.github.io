@@ -38,12 +38,11 @@
 /* change margin-top for various screen sizes for row in first div */
 
 #exp_s {
-  width: 100%!important;
   height: 100%;
   padding-top: 87px;
 }
 
-:root {
+.text-left {
   scroll-behavior: smooth;
 }
 
