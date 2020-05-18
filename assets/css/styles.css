@@ -43,3 +43,7 @@
   padding-top: 87px;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
