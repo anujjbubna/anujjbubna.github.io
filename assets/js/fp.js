@@ -1,8 +1,7 @@
-var myFullPage = new fullpage('#fullpage', {
+new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
-    scrollingSpeed: 1000,
-    navigation: true,
+	scrollHorizontally: true
 });
 
 //methods
