@@ -8,7 +8,7 @@
 #about_row {
   width: auto!important;
   max-width: 1202px;
-  margin-top: 169px;
+  margin-top: 250px;
 }
 
 #am_h {
@@ -35,4 +35,6 @@
   width: 109%;
   text-align: center;
 }
+
+/* change margin-top for various screen sizes for row in first div */
 
