@@ -1,6 +1,7 @@
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
+    fadingEffect: true,
 	scrollHorizontally: true
 });
 
