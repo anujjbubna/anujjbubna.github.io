@@ -6,5 +6,5 @@ new fullpage('#fullpage', {
 });
 
 //methods
-fullpage_api.setAllowScrolling(true);
+fullpage_api.setAllowScrolling(false);
 fullpage_api.setautoScrolling(true);
