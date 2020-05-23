@@ -16,7 +16,7 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .fp-section {
-  position: relative;
+  position: static;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -34,8 +34,8 @@ html.fp-enabled, .fp-enabled body {
 .fp-slides {
   z-index: 1;
   height: 100%;
-  overflow: hidden;
-  position: relative;
+  overflow: scroll;
+  SE: relative;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -55,7 +55,7 @@ html.fp-enabled, .fp-enabled body {
 
 .fp-slidesContainer {
   float: left;
-  position: relative;
+  position: static;
 }
 
 .fp-controlArrow {
@@ -91,11 +91,11 @@ html.fp-enabled, .fp-enabled body {
 
 .fp-scrollable {
   overflow: scroll;
-  position: relative;
+  position: static;
 }
 
 .fp-scroller {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .iScrollIndicator {
@@ -163,7 +163,7 @@ html.fp-enabled, .fp-enabled body {
 
 #fp-nav ul li a, .fp-slidesNav ul li a {
   display: block;
-  position: relative;
+  position: static;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -209,7 +209,7 @@ html.fp-enabled, .fp-enabled body {
   font-family: arial, helvetica, sans-serif;
   white-space: nowrap;
   max-width: 220px;
-  overflow: hidden;
+  overflow: scroll;
   display: block;
   opacity: 0;
   width: 0;
@@ -246,7 +246,7 @@ html.fp-enabled, .fp-enabled body {
   width: 1px;
   height: 1px;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
