@@ -7,4 +7,4 @@ new fullpage('#fullpage', {
 
 //methods
 fullpage_api.setAllowScrolling(false);
-fullpage_api.setautoScrolling(true);
+fullpage_api.setautoScrolling(false);
