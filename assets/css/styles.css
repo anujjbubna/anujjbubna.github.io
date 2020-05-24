@@ -46,8 +46,10 @@
   scroll-behavior: smooth;
 }
 
-#cont_p {
-  font-size: x-large;
+@media (min-width: 576px) {
+  #cont_p {
+    font-size: x-large;
+  }
 }
 
 #git {
