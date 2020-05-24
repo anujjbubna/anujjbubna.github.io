@@ -46,3 +46,21 @@
   scroll-behavior: smooth;
 }
 
+#cont_p {
+  font-size: x-large;
+}
+
+#git {
+  font-size: 175%;
+}
+
+#insta {
+  font-size: 165%;
+  padding-left: 10%;
+}
+
+#mail {
+  font-size: 110%;
+  padding-right: 2%;
+}
+
