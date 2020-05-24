@@ -64,13 +64,6 @@
 @media (min-width: 300px) {
   #mail {
     font-size: 110%;
-    padding-right: 0%;
-  }
-}
-
-@media (min-width: 768px) {
-  #mail {
-    font-size: 110%;
     padding-right: 1%;
   }
 }
