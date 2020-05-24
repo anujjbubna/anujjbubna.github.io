@@ -52,17 +52,30 @@
   }
 }
 
+#cont_p {
+  padding-top: 3%;
+}
+
 #git {
   font-size: 175%;
 }
 
 #insta {
   font-size: 165%;
-  padding-left: 10%;
+  padding-right: 5%;
 }
 
-#mail {
-  font-size: 110%;
-  padding-right: 2%;
+@media (min-width: 300px) {
+  #mail {
+    font-size: 110%;
+    padding-right: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  #mail {
+    font-size: 110%;
+    padding-right: 5%;
+  }
 }
 
