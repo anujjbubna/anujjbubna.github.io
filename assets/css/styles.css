@@ -58,7 +58,7 @@
 
 #insta {
   font-size: 165%;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 @media (min-width: 300px) {
@@ -71,7 +71,7 @@
 @media (min-width: 768px) {
   #mail {
     font-size: 110%;
-    padding-right: 5%;
+    padding-right: 2%;
   }
 }
 
