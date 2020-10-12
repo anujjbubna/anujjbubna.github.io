@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script
     type="text/javascript"
     src="node_modules/fullpage.js/vendors/scrolloverflow.js"
@@ -9,18 +10,6 @@
     type="text/javascript"
     src="node_modules/fullpage.js/dist/fullpage.js"
   ></script>
-  <script
-    type="text/javascript"
-    src="node_modules/fullpage.js/dist/fullpage.js"
-  ></script>
-  <script>
-    new fullpage("#fullpage", {
-      //options here
-      sectionsColor: ["#f2f2f2", "#4BBFC3", "#7BAABE", "whitesmoke", "#ccddff"],
-      autoScrolling: true,
-      scrollBar: true,
-    });
-  </script>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,5 +30,24 @@
         <h1>Page 4</h1>
       </div>
     </div>
+
+    <script
+      type="text/javascript"
+      src="node_modules/fullpage.js/dist/fullpage.js"
+    ></script>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        sectionsColor: [
+          "#f2f2f2",
+          "#4BBFC3",
+          "#7BAABE",
+          "whitesmoke",
+          "#ccddff",
+        ],
+        autoScrolling: true,
+        scrollBar: true,
+      });
+    </script>
   </body>
 </html>
