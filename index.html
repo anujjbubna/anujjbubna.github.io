@@ -1,64 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- <link
-    rel="stylesheet"
-    type="text/css"
-    href="node_modules/fullpage.js/dist/fullpage.css"
-  />
-  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script
-    type="text/javascript"
-    src="node_modules/fullpage.js/vendors/scrolloverflow.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="node_modules/fullpage.js/dist/fullpage.js"
-  ></script>
-  <script scr="/fullpage.js"></script> -->
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anujj Bubna</title>
-  </head>
-  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fullPage.js A simple Demo</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage very simple demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,simple" />
+    <meta name="Resource-type" content="Document" />
+
     <link
       rel="stylesheet"
-      type="text/css"
-      href="node_modules/fullpage.js/dist/fullpage.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.css"
+      integrity="sha512-1No3nMY/zD37h1POyqULfwc9WMzWvXcal6F7/OIhNdWkTaEbt4Y6eqX0vXail7Zh5JjnBdMMKr+lRvqTNFr3Ow=="
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="node_modules/fullpage.js/vendors/scrolloverflow.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="node_modules/fullpage.js/dist/fullpage.js"
-    ></script>
+  </head>
+  <body>
     <div id="fullpage">
-      <div class="section">
-        <h1>Page 1</h1>
+      <div class="section active" id="section0"><h1>fullPage.js</h1></div>
+      <div class="section" id="section1">
+        <div class="slide"><h1>Simple Demo</h1></div>
+        <div class="slide active"><h1>Only text</h1></div>
+        <div class="slide"><h1>And text</h1></div>
+        <div class="slide"><h1>And more text</h1></div>
       </div>
-      <div class="section">
-        <h1>Page 2</h1>
+      <div class="section" id="section2">
+        <h1>No wraps, no extra markup</h1>
       </div>
-      <div class="section">
-        <h1>Page 3</h1>
-      </div>
-      <div class="section">
-        <h1>Page 4</h1>
+      <div class="section" id="section3">
+        <h1>Just the simplest demo ever</h1>
       </div>
     </div>
 
-    <!-- <script
-      type="text/javascript"
-      src="node_modules/fullpage.js/dist/fullpage.js"
-    ></script> -->
-    <script>
-      new fullpage("#fullpage", {
-        //options here
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js"
+      integrity="sha512-eH2N2Zt2AeLuFlFvRSEeZcVeAESY+8nfIqhxx0XXEou6w/G4lLY3K8UKNYqi6e1pLXDduVF1KF/lbyxy3+X6OA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      var myFullpage = new fullpage("#fullpage", {
         sectionsColor: [
           "#f2f2f2",
           "#4BBFC3",
@@ -66,8 +47,6 @@
           "whitesmoke",
           "#ccddff",
         ],
-        autoScrolling: true,
-        scrollBar: true,
       });
     </script>
   </body>
